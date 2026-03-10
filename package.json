@@ -1,0 +1,26 @@
+{
+  "name": "L8_NodeBase",
+  "version": "1.0.0",
+  "description": "Lab 8 Node.js base project for OS, FS, modules, and custom utilities",
+  "main": "index.js",
+  "scripts": {
+    "build": "node runWithEnv.js production",
+    "start": "nodemon runWithEnv.js development",
+    "deploy": "node runWithEnv.js domain",
+    "mode": "node printMode.js",
+    "os": "node os/index.js",
+    "fs-demo": "node fsDemo.js",
+    "bcrypt": "node bcryptTask.js",
+    "use": "node use.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
